@@ -299,6 +299,15 @@ const MassageDashboard = () => {
               </tbody>
             </table>
           </div>
+          <div className="mt-6">
+            <a
+              href={generateBookingMessage(`Hello! I'd like to inquire about your massage packages.`)}
+              className="block w-full bg-[#387c7e] text-white text-center py-3 rounded-lg shadow-md hover:opacity-90 transition-colors"
+            >
+              <MessageCircle className="inline-block mr-2 w-5 h-5" />
+              Inquire About Packages
+            </a>
+          </div>
         </CardContent>
       </Card>
 
