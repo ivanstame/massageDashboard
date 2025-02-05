@@ -13,7 +13,7 @@ const MassageDashboard = () => {
         { date: 'Sunday Feb 2', note: 'No data provided' },
         { date: 'Monday Feb 3', note: 'No data provided' },
         { date: 'Tuesday Feb 4', timeRange: '1pm – 3:30pm', fullyBooked: false },
-        { date: 'Wednesday Feb 5', timeRange: '2pm – 6pm', fullyBooked: false },
+        { date: 'Wednesday Feb 5', timeRange: '3pm – 6pm', fullyBooked: false },
         { date: 'Thursday Feb 6', fullyBooked: true },
         { date: 'Friday Feb 7', timeRange: '5pm – 10pm', fullyBooked: false },
         { date: 'Saturday Feb 8', timeRange: '5pm – 10pm', fullyBooked: false }
