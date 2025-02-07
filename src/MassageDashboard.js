@@ -10,12 +10,12 @@ const MassageDashboard = () => {
     {
       label: 'Week 1 (Feb 2 – Feb 8)',
       dates: [
-        { date: 'Sunday Feb 2', note: 'No data provided' },
-        { date: 'Monday Feb 3', note: 'No data provided' },
-        { date: 'Tuesday Feb 4', timeRange: '1pm – 3:30pm', fullyBooked: false },
-        { date: 'Wednesday Feb 5', timeRange: '3pm – 6pm', fullyBooked: false },
-        { date: 'Thursday Feb 6', fullyBooked: true },
-        { date: 'Friday Feb 7', timeRange: '5pm – 10pm', fullyBooked: false },
+        { date: 'Sunday Feb 2', note: 'Date is passed' },
+        { date: 'Monday Feb 3', note: 'Date is passed' },
+        { date: 'Tuesday Feb 4', timeRange: '', fullyBooked: false, note: 'Date is passed' },
+        { date: 'Wednesday Feb 5', timeRange: '', fullyBooked: false, note: 'Date is passed' },
+        { date: 'Thursday Feb 6', fullyBooked: false, note: 'Date is passed' },
+        { date: 'Friday Feb 7', fullyBooked: true },
         { date: 'Saturday Feb 8', timeRange: '5pm – 10pm', fullyBooked: false }
       ]
     },
@@ -24,9 +24,9 @@ const MassageDashboard = () => {
       dates: [
         { date: 'Sunday Feb 9', fullyBooked: true },
         { date: 'Monday Feb 10', fullyBooked: true },
-        { date: 'Tuesday Feb 11', timeRange: '5pm – 10pm', fullyBooked: false },
+        { date: 'Tuesday Feb 11', timeRange: '4pm – 7pm', fullyBooked: false },
         { date: 'Wednesday Feb 12', timeRange: '5pm – 10pm', fullyBooked: false },
-        { date: 'Thursday Feb 13', fullyBooked: true },
+        { date: 'Thursday Feb 13', timeRange: '2pm – 6pm', fullyBooked: false },
         { date: 'Friday Feb 14', fullyBooked: true },
         { date: 'Saturday Feb 15', timeRange: '3pm – 10pm', fullyBooked: false },
         { date: 'Sunday Feb 16', timeRange: '3pm – 10pm', fullyBooked: false }
@@ -62,12 +62,12 @@ const MassageDashboard = () => {
   const packageData = [
     {
       sessionLength: '60-Minute',
-      fourPackPrice: 380, // $95 each
+      fourPackPrice: 360, // $90 each
       perk: 'Includes aromatherapy'
     },
     {
       sessionLength: '90-Minute',
-      fourPackPrice: 560, // $140 each
+      fourPackPrice: 540, // $135 each
       perk: 'Includes aromatherapy and your choice of either hot stones or Theragun'
     },
     {
