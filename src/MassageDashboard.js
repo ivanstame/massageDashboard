@@ -8,28 +8,27 @@ const MassageDashboard = () => {
 
   const weeksData = [
     {
-      label: 'Week 1 (Feb 2 – Feb 8)',
+      label: 'Week 1 (Feb 15 – Feb 21)',
       dates: [
-        { date: 'Sunday Feb 2', note: 'Date is passed' },
-        { date: 'Monday Feb 3', note: 'Date is passed' },
-        { date: 'Tuesday Feb 4', timeRange: '', fullyBooked: false, note: 'Date is passed' },
-        { date: 'Wednesday Feb 5', timeRange: '', fullyBooked: false, note: 'Date is passed' },
-        { date: 'Thursday Feb 6', fullyBooked: false, note: 'Date is passed' },
-        { date: 'Friday Feb 7', fullyBooked: true },
-        { date: 'Saturday Feb 8', timeRange: '5pm – 10pm', fullyBooked: false }
+        { date: 'Saturday Feb 15', timeRange: '5pm – 10pm', fullyBooked: false },
+        { date: 'Sunday Feb 16', timeRange: '3pm – 10pm', fullyBooked: false },
+        { date: 'Monday Feb 17', fullyBooked: true, note: 'Midwinter Holiday' },
+        { date: 'Tuesday Feb 18', fullyBooked: true, note: 'Midwinter Holiday' },
+        { date: 'Wednesday Feb 19', fullyBooked: true, note: 'Midwinter Holiday' },
+        { date: 'Thursday Feb 20', fullyBooked: true, note: 'Midwinter Holiday' },
+        { date: 'Friday Feb 21', fullyBooked: true, note: 'Midwinter Holiday' }
       ]
     },
     {
-      label: 'Week 2 (Feb 9 – Feb 15)',
+      label: 'Week 2 (Feb 22 – Feb 28)',
       dates: [
-        { date: 'Sunday Feb 9', fullyBooked: true },
-        { date: 'Monday Feb 10', fullyBooked: true },
-        { date: 'Tuesday Feb 11', timeRange: '4pm – 7pm', fullyBooked: false },
-        { date: 'Wednesday Feb 12', timeRange: '5pm – 10pm', fullyBooked: false },
-        { date: 'Thursday Feb 13', timeRange: '2pm – 6pm', fullyBooked: false },
-        { date: 'Friday Feb 14', fullyBooked: true },
-        { date: 'Saturday Feb 15', timeRange: '3pm – 10pm', fullyBooked: false },
-        { date: 'Sunday Feb 16', timeRange: '3pm – 10pm', fullyBooked: false }
+        { date: 'Saturday Feb 22', timeRange: '5pm – 10pm', fullyBooked: false },
+        { date: 'Sunday Feb 23', fullyBooked: true },
+        { date: 'Monday Feb 24', fullyBooked: true, note: 'No availability' },
+        { date: 'Tuesday Feb 25', timeRange: '4:30pm – 9pm', fullyBooked: false },
+        { date: 'Wednesday Feb 26', timeRange: '4:30pm – 9pm', fullyBooked: false },
+        { date: 'Thursday Feb 27', timeRange: '4:30pm – 6:30pm', fullyBooked: false },
+        { date: 'Friday Feb 28', timeRange: '12pm – 6pm', fullyBooked: false }
       ]
     }
   ];
